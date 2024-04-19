@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tres en Raya</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de Tic-Tac-Toe</h1>
+        <div id="tablero" class="tablero">
+            <div class="casilla" onclick="manejarMovimiento(0)"></div>
+            <div class="casilla" onclick="manejarMovimiento(1)"></div>
+            <div class="casilla" onclick="manejarMovimiento(2)"></div>
+            <div class="casilla" onclick="manejarMovimiento(3)"></div>
+            <div class="casilla" onclick="manejarMovimiento(4)"></div>
+            <div class="casilla" onclick="manejarMovimiento(5)"></div>
+            <div class="casilla" onclick="manejarMovimiento(6)"></div>
+            <div class="casilla" onclick="manejarMovimiento(7)"></div>
+            <div class="casilla" onclick="manejarMovimiento(8)"></div>
+        </div>
+        <button onclick="reiniciarJuego()">Reiniciar</button>
+        <p id="estado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
